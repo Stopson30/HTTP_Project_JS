@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width",
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+    content="ie=edge">
+    <title>Project_2</title>
+
+</head>
+
+<body>
+
+    <h1 id="text">"Hello, welcome and let me touch your hips"</h1>
+
+    <p>
+        This is the link:
+        <span id="link">
+
+
+
+        </span>
+
+
+
+    </p>
+
+
+    <script>
+
+        var text = document.getElementById("text")
+        var greetingYou = text.innerHTML
+
+        var website = prompt("What's the URL?")
+        var substringPart = website.substr(0, 4)
+        var link = document.getElementById("link")
+        var greetingYouAgain = link.innerHTML
+
+        if(substringPart == "http") {
+
+            prompt("Ok, well done, dick")
+        }
+        else{
+
+
+            website = "http" + website
+            prompt("lalaal haha")
+            prompt(greetingYouAgain(website))
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>
